@@ -28,11 +28,15 @@ You can assume that:
 - We ignore all but one service from each carrier
 - No surcharges apply to any collection and delivery combination
 
-NOTE: Prior research into the subject matter is not required, the above is all you need to know for this exercise.
+NOTE: Prior research into the subject matter is **not required**. The above is absolutely everything you need to know for this exercise.
 
 ## General info
+
+This exercise will be held during a live session with multiple people. The information provided above is to help you, the candidate, be prepared. We will all be trying to _actively help you do your absolute best_ during the interview. If you have any questions prior to the interview, please feel free to create issues in this repo (do not feel obliged to do so; anything you do prior to the final stage interview isn't going to be taken into consideration when making a decision about who to employ).
+
 Time allocated: 20 minutes
 Participants: 
-Business Analyst
+You
+Existing Business Analyst
 Developer
 Subject Matter Expert
