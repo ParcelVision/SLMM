@@ -20,6 +20,8 @@ The various carriers have different views on what belongs to each of these zones
 
 Given a quote request, we want to return a list of prices we have discovered from all carriers.
 
+In this context a quote means: A list of carriers which can collect from a provided collection point, and deliver to a delivery location, including the costs for each.
+
 ### Assumptions
 
 You can assume that:
