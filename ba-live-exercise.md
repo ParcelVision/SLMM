@@ -2,7 +2,7 @@
 
 ## Objective
 
-Discuss and explore the topic in order to come to a shared understanding of the problem space. The primary objective is to exercise some of the soft skills interacting with the development team, to demonstrate some of the viable analysis approaches to widen the knowledge of the area and to practice working as an equal member of the team.
+Discuss and explore the topic in order to come to a shared understanding of what is necessary to find a solution to the problem. The primary objective is to exercise some of the soft skills interacting with the development team, to demonstrate some of the viable analysis approaches to widen the knowledge of the area and to practice working as an equal member of the team.
 
 Fully and successfully completing the exercise (coming up with a solution we all agree on) will not be counted as a benefit (although it won't hurt) in an attempt to not put people familiar with the domain in an unfair advantage, even if we made every attempt to make sure that all the necessary information was provided below.
 
@@ -49,8 +49,6 @@ Participants:
 | Term        | Definition           | Examples  |
 | ------------- |-------------| -----|
 | Carrier     | A company that offers delivery by road, air or sea | DPD, Hermes, DHL |
-| Quote     | List of carriers which can collect from a provided collection point, and deliver to a delivery location, including the costs for each  | DPD Express: £5.99  |
-|||Hermes Next Day: £4.99|
-| Problem space     | What components are necessary for finding a solution to a problem that meets customer needs | What is needed in finding the best quote to ship a parcel from a collection address to a destination address |
+| Quote     | List of carriers which can collect from a provided collection point, and deliver to a delivery location, including the costs for each  | DPD Express: £5.99  \
+Hermes Next Day: £4.99|
 | Shipping     | The physical process of transporting goods | Truck, train  |
-| Domain     | An area of activity or interest as belonging to or controlled by a particular person or group | Shipping, Finance |
