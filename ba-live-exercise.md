@@ -49,6 +49,5 @@ Participants:
 | Term        | Definition           | Examples  |
 | ------------- |-------------| -----|
 | Carrier     | A company that offers delivery by road, air or sea | DPD, Hermes, DHL |
-| Quote     | List of carriers which can collect from a provided collection point, and deliver to a delivery location, including the costs for each  | DPD Express: £5.99  \
-Hermes Next Day: £4.99|
+| Quote     | List of carriers which can collect from a provided collection point, and deliver to a delivery location, including the costs for each  | DPD Express: £5.99, Hermes Next Day: £4.99|
 | Shipping     | The physical process of transporting goods | Truck, train  |
