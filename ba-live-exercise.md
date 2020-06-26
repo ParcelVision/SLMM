@@ -1,18 +1,5 @@
 # Exercise for candidates for BA positions for ParcelVision
 
-## Glossary of terms
-
-| Term        | Definition           | Examples  |
-| ------------- |-------------| -----|
-| Carrier     | A company that offers delivery by road, air or sea | DPD, Hermes, DHL |
-| Quote     | List of carriers which can collect from a provided collection point, and deliver to a delivery location, including the costs for each  | DPD Express: £5.99  |
-|||Hermes Next Day: £4.99|
-| Problem space     | What components are necessary for finding a solution to a problem that meets customer needs | What is needed in finding the best quote to ship a parcel from a collection address to a destination address |
-| Shipping     | The physical process of transporting goods | Truck, train  |
-| Domain     | An area of activity or interest as belonging to or controlled by a particular person or group | Shipping, Finance |
-| Service     | Type of shipping provided by each carrier | Same day, Next day, Express  |
-| Surcharge     | An additional charge which is applied to the base cost of a shipment | Fuel  |
-
 ## Objective
 
 Discuss and explore the topic in order to come to a shared understanding of the problem space. The primary objective is to exercise some of the soft skills interacting with the development team, to demonstrate some of the viable analysis approaches to widen the knowledge of the area and to practice working as an equal member of the team.
@@ -56,3 +43,14 @@ Participants:
 - Existing Business Analyst
 - Developer
 - Subject Matter Expert
+
+## Glossary of terms
+
+| Term        | Definition           | Examples  |
+| ------------- |-------------| -----|
+| Carrier     | A company that offers delivery by road, air or sea | DPD, Hermes, DHL |
+| Quote     | List of carriers which can collect from a provided collection point, and deliver to a delivery location, including the costs for each  | DPD Express: £5.99  |
+|||Hermes Next Day: £4.99|
+| Problem space     | What components are necessary for finding a solution to a problem that meets customer needs | What is needed in finding the best quote to ship a parcel from a collection address to a destination address |
+| Shipping     | The physical process of transporting goods | Truck, train  |
+| Domain     | An area of activity or interest as belonging to or controlled by a particular person or group | Shipping, Finance |
