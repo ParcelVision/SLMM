@@ -17,7 +17,7 @@ You are expected to create a web API that will accept the above commands, and ex
 
 UI is not required for this exercise, you can use Postman, curl, or similar client to access the API.
 
-Please try to not take more than 3-4 hours total on this exercise. Please take a simple approach to this, and do not overengineer your solution. If you're taking more than the indicated time, you're doing too much work. We want to use a non-trivial problem, but we will be assesing your use of the language and testing. You can assume that there's only ever one lawn mower (no need for concurrency or resource management), and while we want to see how you allocate responsibilities, we are not going to be evaluating the software architecture of the solution.
+Please try to not take more than 3-4 hours total on this exercise. Please take a simple approach to this, and do not overengineer your solution. If you're taking more than the indicated time, you're doing too much work. We will only be assesing your use of the language, readability and testing. You can assume that there's only ever one lawn mower (no need for concurrency or resource management), and while we want to see how you allocate responsibilities, we are not going to be evaluating the software architecture of the solution.
 
 ### Actions to support
 1. Turn 90° clockwise
