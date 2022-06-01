@@ -13,7 +13,7 @@ Your task is to create the software that will run in the SLMM itself and will be
 
 To emulate work being done, please use `Sleep`.
 
-You are expected to create a web API that will accept the above commands, and execute them. During application startup (through config) or through a "reset" endpoint, the SLMM is given dimensions `(length,width)` of the garden where it operates. You can assume an initial position of `(0,0)` and that the lawn mower is facing north.
+You are expected to create a web API that will accept the above commands, and execute them. During application startup (through config) or through a "reset" endpoint, the SLMM is given dimensions `(length,width)` of the garden where it operates. You can assume an initial position of `(0,0)` (which is the lower left and south-western corner of the rectangle) and that the lawn mower is facing north.
 
 UI is not required for this exercise, you can use Postman, curl, or similar client to access the API.
 
