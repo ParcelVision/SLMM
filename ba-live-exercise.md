@@ -29,7 +29,12 @@ You can assume that:
 - We ignore all but one service from each carrier
 - No surcharges apply to any collection and delivery combination
 
-NOTE: Prior research into the subject matter is **not required**. The above is absolutely everything you need to know about this exercise.
+### Important!
+
+- Reaching a solution by the end is NOT considered positive at all. You do not need to make sure you have a solution coming in, nor worry that you need to come to a solution by the end. We spent a good amount of weeks on this problem, and we don't expect to have a solution in 30 minutes. 
+- Prior research into the subject matter is **not required**. The information in this document is absolutely everything you need to know about this exercise.
+- You should not come into the interview with a solution prepared, although feel free to prepare something to demonstrate your understanding of what has been said here. This can be as simple as some questions you ask us during the interview. To emphasize that you don't need to come in the interview with a solution prepared consider that what you come up alone without domain experts at your disposal, and only a fraction of the time we invested, is almost certainly not going to be something which meets all of our particular requirements.
+- Please do not spend a lot of time researching anything outside this document. The **only** purposes of this exercise is to assess your ability to extract requirements from our domain expert, your analytical, and communication skills, and researching information outside this document (which may be too big or not accurate) may affect this negatively.
 
 ## General info
 
