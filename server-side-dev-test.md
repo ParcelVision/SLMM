@@ -1,8 +1,6 @@
 SLMM - The coding exercise for server side applicants
 =====================================================
 
-Please do not overengineer this exercise, but at the same time try to demonstrate knowledge of good code design principles.
-
 ### Short description
 Assume we are interested in creating a smart lawn mowing machine called SLMM (smart lawn mowing machine).
 The SLMM operates in a rectangular garden that is a grid with dimensions `Length x Width`; SLMM can move forward
