@@ -15,18 +15,17 @@ Your task is to create the software that will run in the SLMM itself and will be
 
 To emulate work being done, please use `Sleep`.
 
-You are expected to create a web API that will accept the above commands, and execute them. During application startup,
-the SLMM is given dimensions `(length,width)` of the garden where it operates, and initial position `(x,y,orientation)` - location in the garden (grid cell coordinates) and orientation (`North`/`East`/`South`/`West`). These settings can be passed in through a configuration file.
+You are expected to create a web API that will accept the above commands, and execute them. During application startup (through config) or through a "reset" endpoint, the SLMM is given dimensions `(length,width)` of the garden where it operates. You can assume an initial position of `(0,0)` and that the lawn mower is facing north.
 
 UI is not required for this exercise, you can use Postman, curl, or similar client to access the API.
 
-Please try to not take more than 3-4 hours total on this exercise.
+Please try to not take more than 3-4 hours total on this exercise. Please take a simple approach to this, and do not overengineer your solution. If you're taking more than the indicated time, you're doing too much work. We want to use a non-trivial problem, but we will be assesing your use of the language and testing. You can assume that there's only ever one lawn mower (no need for concurrency or resource management), and while we want to see how you allocate responsibilities, we are not going to be evaluating the software architecture of the solution.
 
 ### Actions to support
 1. Turn 90° clockwise
 1. Turn 90° anticlockwise
 1. Move one step forward
-1. Get current position `(x,y,orientation)` - location in the garden (grid cell coordinates) and orientation (`North`/`East`/`South`/`West`)
+1. Get current position using `x` and `y` coordinated to indicate the position of the lawn mower in the rectangular garden (which will be the coordinates of the grid cell), and `orientation` (one of `North`/`East`/`South`/`West`)
 
 ### Deliverable
 A web API implemented in C# using any web framework of your choice. Automated tests must be included in the delivery. You are free to use any nuget library you choose.
@@ -38,14 +37,12 @@ Please include a short documentation explaining how to build, run and use the so
 The provided solutions needs to build with no errors. Feel free to use any 3rd party libraries you chose, but aside from web framework and DI libraries, please explain clearly your choices.
 
 1. The SLMM never goes outside of the dimensions of the garden as supplied during startup.
-1. The SLMM web API remains responsive - get current position returns a value immediately regardless if the SLMM is busy rotating or moving forward.
-1. When queried the SLMM should return the current position until it finished moving.
+1. The SLMM web API remains responsive
 
 ### Assessment
 
 Your solution will be assessed based on:
-1. Use of the language
+
+1. Use of the language features
 1. Readability and maintainability of code
-1. Adhering to coding standards
-1. Allocating responsibilities to classes
 1. Testing approach and methodology
