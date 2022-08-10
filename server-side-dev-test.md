@@ -11,7 +11,7 @@ Your task is to create the software that will run in the SLMM itself and will be
 1. Turn the SLMM 90° clockwise or anticlockwise -> This should take 2 seconds to do
 1. Move forward by one position -> This takes 5 seconds to do
 
-To emulate work being done, please use `Sleep`.
+To emulate work being done, please use `Sleep` or `Delay`.
 
 You are expected to create a web API that will accept the above commands, and execute them. During application startup (through config) or through a "reset" endpoint, the SLMM is given dimensions `(length,width)` of the garden where it operates. You can assume an initial position of `(0,0)` (which is the lower left and south-western corner of the rectangle) and that the lawn mower is facing north.
 
