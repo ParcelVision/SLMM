@@ -37,10 +37,25 @@ The provided solutions needs to build with no errors. Feel free to use any 3rd p
 1. The SLMM never goes outside of the dimensions of the garden as supplied during startup.
 1. The SLMM web API remains responsive
 
+> **NOTE**: If you don't manage to finish all requirements within 2-3 hours, this isn't a problem. As long as allocation of responsibilities, your testing approach and use of testing can be assessed, it's OK to submit.
+
 ### Assessment
 
 Your solution will be assessed based on:
 
-1. Use of the language features
-1. Readability and maintainability of code
+1. Allocation of responsibilities to components
+1. Use of language features (and built-in collections)
 1. Testing approach and methodology
+
+Please do:
+- Use any nuget library that can help you deliver this quickly as long as the above can be demonstrated
+- Try to finish within 3 hours at most. It is more than enough time to demonstrate the above assessment points
+- Submit your application even if not all acceptance criteria are finished.
+- Use any scaffolding tools you want to create the solution
+- Use _any_ testing framework you want and are familiar with
+- Use appropriate testing for the solution and it's size
+
+Please do not:
+- Provide a UI for this application. We do not need one and it will not count as a positive. You will only spend more time
+- Demonstrate knowledge of CQRS or any other architectural pattern (or messaging or Event Sourcing for that matter). We do use them in our system, but we will be assessing your application solely on the points mentioned above.
+- Spend too long on your solution. This could be done as quickly as 1.5 hours and demonstrate the above. Please don't take more than 3 hours.
